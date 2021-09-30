@@ -12,3 +12,28 @@ body {
 h1 {
   color: rgb(153, 0, 255);
 }
+
+.card {
+  background-color: antiquewhite;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in;
+  display: grid;
+  place-items: center;
+}
+
+.card img {
+  height: 8em;
+  width: 8em;
+}
+
+.grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
