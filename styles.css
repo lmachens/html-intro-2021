@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+h1 {
+  color: rgb(153, 0, 255);
+}
