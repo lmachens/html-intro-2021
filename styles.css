@@ -19,3 +19,14 @@ h1 {
   padding: 0.5rem;
   border-radius: 10px;
 }
+
+.card img {
+  height: 8em;
+  width: 8em;
+}
+
+.grid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+}
