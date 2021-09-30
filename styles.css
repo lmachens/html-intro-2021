@@ -18,6 +18,9 @@ h1 {
   color: black;
   padding: 0.5rem;
   border-radius: 10px;
+  transition: transform 0.2s ease-in;
+  display: grid;
+  place-items: center;
 }
 
 .card img {
@@ -29,4 +32,8 @@ h1 {
   display: grid;
   gap: 1em;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
