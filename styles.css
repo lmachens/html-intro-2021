@@ -12,3 +12,10 @@ body {
 h1 {
   color: rgb(153, 0, 255);
 }
+
+.card {
+  background-color: antiquewhite;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
